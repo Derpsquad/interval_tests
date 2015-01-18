@@ -1,0 +1,19 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "matthew.brady@yale.edu",
+    "longName": "interval_test",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "shortName": "interval_test",
+    "uuid": "1259c24e-37d0-4e4a-9675-d49fb81eb69e",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
