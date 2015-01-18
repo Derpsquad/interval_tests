@@ -5,7 +5,7 @@
   
 
 typedef struct  {
-  int begin_time_mins;//begining time in minutes since midnight (12:00am =0 )
+  int begin_time_mins;//beginning time in minutes since midnight (12:00am =0 )
   int duration;//duration in mins
   int day;//the day of the week
   bool repeat;//whether the task repeats every week
@@ -13,3 +13,4 @@ typedef struct  {
 
 int interval_write(interval interval_object);
 void schedule_all();
+void clear_all();

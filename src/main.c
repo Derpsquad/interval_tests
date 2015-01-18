@@ -14,7 +14,7 @@ static void main_window_load(Window *window) {
   
   int econ_id = interval_write(econ_class);
   APP_LOG(APP_LOG_LEVEL_DEBUG, "attempted write with persistent id: %d", econ_id);
-  */
+  
   interval art_class;
   art_class.day = WEDNESDAY;
   art_class.duration = 115;
@@ -25,10 +25,10 @@ static void main_window_load(Window *window) {
   APP_LOG(APP_LOG_LEVEL_DEBUG, "attempted write with persistent id: %d", art_id);
   
   schedule_all();
-
+  */
+  clear_all();
   
-  
-  
+  //APP_LOG(APP_LOG_LEVEL_DEBUG, "m: %d tu: %d wed: %d fri: %d sat: %d sun: %d today: %d", MONDAY, TUESDAY, WEDNESDAY, FRIDAY, SATURDAY, SUNDAY, TODAY);
   // Create time TextLayer
   s_time_layer = text_layer_create(GRect(0, 55, 144, 50));
   text_layer_set_background_color(s_time_layer, GColorClear);
